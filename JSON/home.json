@@ -1,0 +1,227 @@
+[
+    {
+        "image": "images/card1.jpg",
+        "product_name": "Coffee Jacket",
+        "price": "$399.99"
+    },
+    {
+        "image": "images/card2.jpg",
+        "product_name": "Navy blue jacket",
+        "price": "$320.99"
+    },
+    {
+        "image": "images/card3.webp",
+        "product_name": "Off White Jacket",
+        "price": "$240.99"
+    },
+    {
+        "image": "images/card4.jpg",
+        "product_name": "Camel Jacket",
+        "price": "$230.99"
+    },
+    {
+        "image": "images/card5.jpg",
+        "product_name": "Zebra Jacket",
+        "price": "$320.99"
+    },
+    {
+        "image": "images/card6.jpg",
+        "product_name": "Brown Comfy Jacket",
+        "price": "$710.99"
+    },
+    {
+        "image": "images/card7.jpg",
+        "product_name": "Black Leather Jacket",
+        "price": "$820.99"
+    },
+    {
+        "image": "images/card8.jpg",
+        "product_name": "Grey coat",
+        "price": "$667.99"
+    },
+    {
+        "image": "images/card9.jpg",
+        "product_name": "Camel Coat",
+        "price": "$810.99"
+    },
+    {
+        "image": "images/card10.webp",
+        "product_name": "Black Hoodie",
+        "price": "$1220.99"
+    },
+    {
+        "image": "images/card11.webp",
+        "product_name": "Navy Blue Sweat Shirt",
+        "price": "$799.99"
+    },
+    {
+        "image": "images/card12.jpg",
+        "product_name": "Leaf Green Hoodie",
+        "price": "$699.99"
+    },
+    {
+        "image": "images/card13.webp",
+        "product_name": "Light Peach Sweatshirt",
+        "price": "$889.99"
+    },
+    {
+        "image": "images/card14.jpg",
+        "product_name": "Black and Grey Hoodie",
+        "price": "$1299.99"
+    },
+    {
+        "image": "images/card15.jpg",
+        "product_name": "Black Hoodie",
+        "price": "$999.99"
+    },
+    {
+        "image": "images/card16.jpg",
+        "product_name": "Dark Leaf Green Hoodie",
+        "price": "$999.99"
+    },
+    {
+        "image": "images/card17.jpg",
+        "product_name": "Light Grey Sweatshirt",
+        "price": "$399.99"
+    },
+    {
+        "image": "images/card18.jpg",
+        "product_name": "Silver Hoodie",
+        "price": "$499.99"
+    },
+    {
+        "image": "images/shoe1.jpg",
+        "product_name": "Silver Long Shoes",
+        "price": "$499.99"
+    },
+    {
+        "image": "images/shoe2.avif",
+        "product_name": "Zebra Shoes",
+        "price": "$399.99"
+    },
+    {
+        "image": "images/shoe3.jpg",
+        "product_name": "Black Jogers",
+        "price": "$599.99"
+    },
+    {
+        "image": "images/shoe4.webp",
+        "product_name": "Running Boost Shoes",
+        "price": "$999.99"
+    },
+    {
+        "image": "images/shoe5.jpg",
+        "product_name": "Leather Coated Shoes",
+        "price": "$399.99"
+    },
+    {
+        "image": "images/shoe6.jpg",
+        "product_name": "Black and Grey Running Shoes",
+        "price": "$499.99"
+    },
+    {
+        "image": "images/shoe7.png",
+        "product_name": "Black Long Leather Shoes",
+        "price": "$999.99"
+    },
+    {
+        "image": "images/shoe8.avif",
+        "product_name": "Rainbow Running Shoes",
+        "price": "$399.99"
+    },
+    {
+        "image": "images/shoe9.jpg",
+        "product_name": "Hiking Grip Shoes",
+        "price": "$499.99"
+    },
+    {
+        "image": "images/watch1.jpg",
+        "product_name": "Exporio Armani",
+        "price": "$499.99"
+    },
+    {
+        "image": "images/watch2.jpg",
+        "product_name": "Seiko SQ1 00",
+        "price": "$599.99"
+    },
+    {
+        "image": "images/watch3.jpg",
+        "product_name": "Exporio Armani Meccanico",
+        "price": "$699.99"
+    },
+    {
+        "image": "images/watch4.jpg",
+        "product_name": "Seiko 100M",
+        "price": "$899.99"
+    },
+    {
+        "image": "images/watch5.jpg",
+        "product_name": "Seiko Black and Silver Addition",
+        "price": "$399.99"
+    },
+    {
+        "image": "images/watch6.jpg",
+        "product_name": "Eberhard Mcmlix Scafograf",
+        "price": "$499.99"
+    },
+    {
+        "image": "images/watch7.webp",
+        "product_name": "Tag Heuer Formula",
+        "price": "$999.99"
+    },
+    {
+        "image": "images/watch8.avif",
+        "product_name": "Ingrosoll Golden Addition",
+        "price": "$799.99"
+    },
+    {
+        "image": "images/watch9.jpg",
+        "product_name": "Luminor Marina",
+        "price": "$399.99"
+    },
+    {
+        "image": "images/trouser1.jpg",
+        "product_name": "Mud Brown Trouser",
+        "price": "$299.99"
+    },
+    {
+        "image": "images/trouser2.jpg",
+        "product_name": "Grey Stretchable trousers.",
+        "price": "$150.99"
+    },
+    {
+        "image": "images/trouser3.jpg",
+        "product_name": "Military Cargo trouser",
+        "price": "$99.99"
+    },
+    {
+        "image": "images/trouser4.webp",
+        "product_name": "Navy Blue formal trouser",
+        "price": "$200.00"
+    },
+    {
+        "image": "images/trouser5.jpg",
+        "product_name": "Dark Blue trouser",
+        "price": "$79.99"
+    },
+    {
+        "image": "images/trouser6.jpg",
+        "product_name": "Army Cargo trouser",
+        "price": "$299.99"
+    },
+    {
+        "image": "images/trouser7.jpg",
+        "product_name": "Black Cargo trouser",
+        "price": "$99.99"
+    },
+    {
+        "image": "images/trouser8.jpg",
+        "product_name": "Grey Cargo trouser",
+        "price": "$149.99"
+    },
+    {
+        "image": "images/trouser9.webp",
+        "product_name": "Dark green trouser",
+        "price": "$35.99"
+    }
+]

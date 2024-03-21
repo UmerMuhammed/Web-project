@@ -1,0 +1,476 @@
+nav {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .img1 {
+    height: 90px;
+    margin-left: 720px;
+  }
+  
+  .head1,
+  .head2 {
+    opacity: 0;
+    /* Initially hidden */
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+    color: white;
+    /* Change icon color */
+    cursor: pointer;
+    margin-left: 600px;
+    height: 30px;
+  }
+  .cart-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .cont {
+    width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    /* Increased border radius for a more rounded look */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* Stronger box shadow for depth */
+    position: relative;
+    /* Required for stacking inner elements */
+    overflow: hidden;
+    /* Hide overflowing elements */
+    margin-top: 70px;
+    padding: -20px;
+  }
+  
+ 
+  
+
+  
+  select:focus {
+    outline: none;
+    border-color: #000000;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus {
+    outline: none;
+    border-color: #000000;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+ 
+  
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  #featured-product-image {
+    float: right;
+    width: 430px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border: 2px solid #ddd;
+    /* Add a border for a neat look */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add shadow for depth */
+    overflow: hidden;
+    margin-right: 1060px;
+    /* Hide overflow content */
+  
+  }
+  
+  #featured-product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensure the image covers the container */
+  }
+  
+  #product-title {
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    background-color: #1e272e;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    width: 230px;
+    padding: 10px 20px;
+    margin-top: 100px;
+    margin-right: 1040px;
+    
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  #product-tag {
+    margin-left: 30px;
+  }
+  
+  .product-div2 {
+    margin-top: -150px;
+    margin-left: 5px;
+    /* Adjust the negative margin as needed */
+    /* Adjust the negative margin as needed */
+  }
+  
+  #product-price {
+    color: #666;
+    font-size: 36px;
+    margin-left: 60px;
+    font-family: serif;
+  
+  }
+  
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    margin: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    /* Increased border radius for a rounded button */
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth transition for background color and transform */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(106, 0, 0, 0.1);
+    /* Added box shadow for depth */
+  }
+  
+  .card button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent overlay */
+    border-radius: 50%;
+    /* Circular shape */
+    transition: all 0.3s;
+    /* Smooth transition for all properties */
+    transform: translate(-50%, -50%) scale(0);
+    /* Initial scale */
+  }
+  
+  .card button:hover::before {
+    transform: translate(-50%, -50%) scale(2);
+    /* Scale up on hover */
+  }
+  
+  .card button:hover {
+    background-color: #ff0000;
+    color: #fff;
+    transform: translateY(-2px);
+    /* Move button slightly up on hover */
+  }
+
+  .product-container
+{
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 73px;
+  margin-left: 70px;
+}
+.img{
+  width: 280px;
+  margin-top: 60px;
+  border: 2px solid #ddd;
+  /* Add a border for a neat look */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add shadow for depth */
+  overflow: hidden;
+  /* Hide overflow content */
+}
+.total-price {
+  font-size: 24px; /* Increase font size */
+  margin-left: 280px; /* Align to the right */
+  margin-right: auto;
+  margin-bottom: 20px; /* Reduce margin for a compact look */
+  font-weight: bold;
+  color: #127a15; /* Green color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  border: 2px solid #4CAF50; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding */
+  background-color: #F9F9F9; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+
+.delete-button
+{
+  margin: 10px;
+  width: 190px;
+  background-color: red;
+}
+.delete-button:hover::before
+{
+  transform: translate(-50%, -50%) scale(2);
+}
+.delete-button:hover
+{
+  background-color: #000000;
+    color: #fff;
+    transform: translateY(-2px);
+}
+.h6 {
+  font-size: 13px; /* Font size */
+  font-weight: bold; /* Bold text */
+  color: #FF5722; /* Orange color */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow */
+  border-bottom: 2px solid #FF5722; /* Bottom border */
+  padding-bottom: 5px; /* Padding at the bottom */
+}
+.empty-cart {
+  margin-left:550px;
+  font-size: 24px;
+  color: #666; /* Dark gray color */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add some padding for better readability */
+  border: 2px dashed #ccc; /* Add a dashed border */
+  border-radius: 10px; /* Add some border radius for rounded corners */
+}
+/* Existing CSS styles remain unchanged */
+
+/* Existing CSS styles remain unchanged */
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-button {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  padding: 3px 6px; /* Adjusted padding */
+  margin: 0 3px; /* Adjusted margin */
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px; /* Adjusted font size */
+  width: 33px; /* Adjusted width */
+  text-align: center;
+  margin-left: 11px;
+}
+
+.quantity-value {
+  font-weight: bold;
+  margin: 0 5px;
+  font-size: 14px; /* Adjusted font size */
+}
+/* Existing CSS styles remain unchanged */
+
+/* Existing CSS styles remain unchanged */
+
+/* Existing CSS styles remain unchanged */
+
+/* Color Dropdown Styles */
+.color-dropdown {
+  margin-top: 10px;
+  position: relative;
+}
+
+.color-dropdown select {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #f4ff7c, #b0b0b0);
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.color-dropdown select:focus {
+  outline: none;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Quantity Buttons Styles */
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 6px;
+}
+
+.quantity-button {
+  background: linear-gradient(to right, #ccc, #bbb);
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quantity-button:hover {
+  background: linear-gradient(to right, #bbb, #aaa);
+  color: #222;
+}
+
+.quantity-value {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.delete-button {
+  background: linear-gradient(to right, #ff6464, #ff4444);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button:hover {
+  background: linear-gradient(to right, #ff4444, #ff0000);
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .img1 {
+    margin-left: 502px;
+    height: 60px;
+  }
+
+  .cart-button,
+  .cart-icon {
+    margin-left:150px;
+    height: 20px;
+  }
+}
+@media (max-width: 686px) {
+
+  body
+  {
+    width: 500px;
+  }
+
+  nav {
+    width: 570px;
+    height: 35px;
+  }
+
+  .img1 {
+    margin-left: 150px;
+    height: 60px;
+  }
+
+  .cart-button,
+  .cart-icon {
+    margin-left: 48px;
+    height: 20px;
+  }
+  .total-price
+  {
+    margin-left: -30px;
+  }
+  .empty-cart
+  {
+    margin-left: -24px;
+  }
+  .bt1
+  {
+    width: 359px;
+  }
+}
